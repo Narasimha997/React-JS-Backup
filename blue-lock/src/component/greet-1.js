@@ -1,0 +1,3 @@
+import React from "react";
+const Hi=()=><h1>Surpass your Limts, Right now, right here</h1>     // We can also write a fat arrow function without curly barckets when the statements are in single line.Got it....
+export default Hi
