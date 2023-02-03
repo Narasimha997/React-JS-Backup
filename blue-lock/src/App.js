@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
 // import Greet from './component/Greet';
-// import Welcome from './component/one';
+// import Retrive from './component/class';
+// import Welcome from './component/class&props';
 // import Hello from './component/Hello';
 import Hi from './component/greet-1';
+import After from './component/Hi';
 class App extends Component{
   render(){
   return (
@@ -20,6 +22,7 @@ class App extends Component{
         <Welcome name="Clerk" Heroname="Super-Man"/>
         <Welcome name="Tony Stark" Heroname="Iron-Man"/> */}
         <Hi/>               {/* It is an custom created tag with self closing */}
+        <After/>
 
     </div>
   );
