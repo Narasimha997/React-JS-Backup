@@ -3,7 +3,7 @@ class Message extends Component{
     constructor(){                         // Here we are using constructor & super keyword because we exrends react component class & a call has to be made  to the base class constructor
         super()
         this.state={
-            message:'To win this World,'
+            message:'To Survive in this World,'
         }
     }
     changeMessage(){
