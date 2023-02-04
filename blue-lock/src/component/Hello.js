@@ -15,7 +15,7 @@ const Hello=(props)=>{           /* "props" is just an object that contains the 
     return (
     <div>
         <h1>Hello! {props.name} {props.Heroname}</h1>,
-    {props.children}
+    {props.children} {this.props.names}
     </div>
     )
 }
