@@ -2,7 +2,10 @@ import React from "react";
 function Ko(){
     const[message,setMessage]=React.useState('hello,world');
     return(
-        <h1>{message}</h1>
+        <div>
+            <h1>{message}</h1>
+            {/* <h2>{setMessage.name}</h2> */}
+        </div>
     )
 }
 export default Ko
