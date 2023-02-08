@@ -1,16 +1,12 @@
 import React from "react";
-import Product from "./product/product";
-import { store } from "./rr/store";
-import { Provider } from "react-redux";
+
+import Clicked from "./eventsreact/functionClick";
+import Clap from "./eventsreact/classClicked";
 const App =()=>{
   return(
     <div>
-      <Provider store={store}>
-         <h1>App component</h1>    
-         <hr/>
-         <Product/>
-        
-      </Provider>
+     <Clicked/>
+     <Clap/>
     </div>
   )
 }
