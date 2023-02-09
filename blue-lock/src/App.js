@@ -1,12 +1,17 @@
 import React from "react";
-
-import Clicked from "./eventsreact/functionClick";
-import Clap from "./eventsreact/classClicked";
-const App =()=>{
-  return(
+import Product from "./component-3/product.js/product-1";
+// import Before from "./component-3/Hi";
+// import Ref from "./component-3/function";
+// import Flip from "./component-3/withoutJSX";
+// import Mi from "./component-3/class&props-2";
+const App=()=>{
+  return (
     <div>
-     <Clicked/>
-     <Clap/>
+      {/* <Before/> */}
+      {/* <Ref/> */}
+      {/* <Flip/> */}
+      {/* <Mi/> */}
+      <Product/>
     </div>
   )
 }

@@ -13,38 +13,62 @@ class Product extends Component{
         }
     }
     changePrice(){
+        // 
+        // this.setState((prevState)=>({
+        //     quantity:prevState.quantity-1
+        // }))
+        // console.log(this.state.quantity);
         this.setState({
-            quantity:this.state.quantity-1
-            
+            quantity:this.setState.quantity-1
         },
         ()=>{
-            console.log("callback value",this.state.quantity);
+            console.log(this.setState.quantity);
         })
-        console.log(this.state.quantity);
     }
     changePrice1(){
         this.setState({
-            quantity:this.state.quantity+1
+            quantity:this.setState.quantity+1
         },
         ()=>{
             console.log("callback value",this.state.quantity);
         })
+        // this.setState((prevState)=>({
+        //     quantity:prevState.quantity+1
+        // }))
         
-        console.log(this.state.quantity);
+        // console.log(this.state.quantity);
 
     }
-    incfive(){
-        this.changePrice1()
-        this.changePrice1()
-        this.changePrice1()
-        this.changePrice1()
-        this.changePrice1()
-    }
+    // incfive(){
+    //     this.changePrice1()
+    //     this.changePrice1()
+    //     this.changePrice1()
+    //     this.changePrice1()
+    //     this.changePrice1()
+    // }
+    // decfive(){
+    //     this.changePrice()
+    //     this.changePrice()
+    //     this.changePrice()
+    //     this.changePrice()
+    //     this.changePrice()
+    // }
     
     render(){
         return(
             <div>
-                <div className="container">
+             <div>
+             <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+                <div className="ml-auto">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-list"><a href="./about.html" className="nav-link">About</a></li>
+                        <li className="nav-list"><a href="./contact.html" className="nav-link">Contact</a></li>
+                        <li className="nav-list"><a href="./service.html" className="nav-link">Service</a></li>
+                        <li className="nav-list"><a href="./Product.html" className="nav-link">Product</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div className="container">
                 <div className="row">
                     <div className="col-8">
                            <table className="table">
@@ -70,6 +94,7 @@ class Product extends Component{
                     </div>
                 </div>   
                 </div>
+           </div>
             </div>
         )
     }   
