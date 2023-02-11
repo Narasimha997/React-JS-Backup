@@ -1,6 +1,6 @@
 import React from "react";
-import Tree from "./componentdid/componentdid2";
-// import Time from "./clock/clock";
+// import Tree from "./componentdid/componentdid2";
+import Time from "./clock/clock";
 // import Data from "./componentdid/componentdid1";
 // import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
 // import Navbar from "./navbar/navbar";
@@ -14,9 +14,9 @@ const App=()=>{
     <Route path="./navbar/product" element={<Product/>}/>
     </Routes>
    </Router>*/}
-   {/* <Time/> */}
+   <Time/>
    {/* <Data/> */}
-   <Tree/>
+   {/* <Tree/> */}
     </div> 
   )
 }
