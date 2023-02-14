@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
- class Retrive extends Component{
+ class Childrencomponent extends Component{
     render(){
         return( 
       <div>
         <h1>Class Component</h1>
-        <h3>{this.props.name}</h3>
-        <h3>{this.props.email}</h3>
+        <h1>{this.props.name}</h1>
+        <h1>{this.props.email}</h1>
       </div>
         )
     }
 }
-export default Retrive
+export default Childrencomponent

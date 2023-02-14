@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Retrive from "./class";
-class Revieve extends Component{
+import Childrencomponent from "./class";
+class ParentComponent extends Component{
     name='tony'
     email="namw@gmail.com"
     render(){
@@ -9,9 +9,9 @@ class Revieve extends Component{
                 <h3>
                     one
                 </h3>
-                <Retrive name={this.name} email={this.email}/>
+                <Childrencomponent name={this.name} email={this.email}/>
             </div>
         )
     }
 }
-export default Revieve
+export default ParentComponent
