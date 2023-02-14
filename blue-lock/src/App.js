@@ -1,6 +1,7 @@
 import React from "react";
+import One from "./method as props/one";
 // import ParentComponent from "./component/class2";
-import Parent from "./method as props/Parent";
+// import Parent from "./method as props/Parent";
 // import Event1 from "./event-1";
 // import Event from "./event";
 function App(){
@@ -8,7 +9,8 @@ function App(){
     <div>
       {/* <Event/> */}
       {/* <Event1/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <One/>
       {/* <ParentComponent/> */}
     </div>
   )
