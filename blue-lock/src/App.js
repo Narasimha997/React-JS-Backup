@@ -1,18 +1,12 @@
 import React from "react";
-import One from "./method as props/one";
-// import ParentComponent from "./component/class2";
-// import Parent from "./method as props/Parent";
-// import Event1 from "./event-1";
-// import Event from "./event";
+import Listthree from "./listrendering/three";
+// import Listone from "./listrendering/one";
+// import Listtwo from "./listrendering/two";
 function App(){
-  return(
-    <div>
-      {/* <Event/> */}
-      {/* <Event1/> */}
-      {/* <Parent/> */}
-      <One/>
-      {/* <ParentComponent/> */}
-    </div>
-  )
+  return <div>
+    {/* <Listone/> */}
+    {/* <Listtwo/> */}
+    <Listthree/>
+  </div>
 }
 export default App
