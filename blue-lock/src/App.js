@@ -1,15 +1,16 @@
-import React from "react";
-import Name from "./listrendering/name";
-import Listthree from "./listrendering/three";
+import React from 'react'
+import One from './Revise/one'
+import Parent from './Revise/parent'
+import Two from './Revise/two'
 
-// import Listone from "./listrendering/one";
-// import Listtwo from "./listrendering/two";
-function App(){
-  return <div>
-    {/* <Listone/> */}
-    {/* <Listtwo/> */}
-    {/* <Listthree/> */}
-    <Name/>
-  </div>
+function App() {
+  return (
+    <div>
+      <One/>
+      <Two/>
+      <Parent/>
+    </div>
+  )
 }
+
 export default App
