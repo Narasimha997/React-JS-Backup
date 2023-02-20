@@ -1,14 +1,16 @@
 import React from 'react'
-import One from './Revise/one'
-import Parent from './Revise/parent'
-import Two from './Revise/two'
+import Names from './listrendering/indexaskey/Names'
+// import One from './Revise/one'
+// import Parent from './Revise/parent'
+// import Two from './Revise/two'
 
 function App() {
   return (
     <div>
-      <One/>
+      {/* <One/>
       <Two/>
-      <Parent/>
+      <Parent/> */}
+      <Names/>
   
     </div>
   )
