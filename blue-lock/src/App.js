@@ -1,6 +1,8 @@
 import React from 'react'
+import Hi from './component/greet-1'
 import One from './Revise/one'
 import Parent from './Revise/parent'
+import Product from './Revise/Product'
 import Two from './Revise/two'
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <One/>
       <Two/>
       <Parent/>
+      <Hi/>
+      <Product/>
     </div>
   )
 }

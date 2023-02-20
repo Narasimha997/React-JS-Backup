@@ -1,6 +1,6 @@
 import React from "react";
 const Hi=()=>{
-    // This react application to return something it provides React.createElement()
+    // Without JSX react application to return something it provides React.createElement()
     // It access minimum three parameters into it
     // First parameter is must be tag as string
     // Second parameter is basically is an object of key value pairs that wil be applied to the element
@@ -11,6 +11,6 @@ const Hi=()=>{
     // In the output it shows along with the message at that time what we have to do is follow the following next example
     // return React.createElement('div',null,React.createElement('h1',null,"Surpass Your Limits Right now, Right here"))
     // Passing object to the second parameter 
-    return React.createElement('div',{id:1,name:"luffy"},"Message")
+    return React.createElement('h1',{id:1,name:"luffy"},"Message")
 }
 export default Hi
