@@ -9,7 +9,7 @@ class Parent extends Component {
             <div>
                 <Children name={this.name} email={this.email} />
             </div>
-        );
+        )
     }
 }
 
