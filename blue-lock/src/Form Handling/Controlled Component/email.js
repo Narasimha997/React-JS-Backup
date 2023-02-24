@@ -25,10 +25,15 @@ class Form extends Component {
         select:event.target.value
     })
   }
+  submitHandler=(event)=>{
+    alert(`${this.state.email} ${this.state.textarea} ${this.state.select}`)
+    event.preventDeafult()
+  }
   render() {
     return (
-      <div>
-      <label>Email ID</label>
+        <form onSubmit={this.submitHandler}>  <div>
+     
+         <label>Email ID</label>
         <input type="text" value={this.state.email} onChange={this.email}/>
       <label>Textarea</label>
         <textarea rows="4" cols="50" maxlength="200" onChange={this.textareaHandler}></textarea>
@@ -38,8 +43,11 @@ class Form extends Component {
             <option>Angular</option>
             <option>Vue</option>
         </select>
-        <button onChange={this.submitHandler}>Submit</button>
-      </div>
+        <button type="submit">Submit</button>
+        </div>
+        </form>
+
+    
     );
   }
 }

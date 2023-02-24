@@ -3,10 +3,10 @@ import React from 'react';
 // import Namestyle1 from './css/Namestyle passingprops';
 // import Names from './listrendering/indexaskey/Names'
 // import One from './Revise/one'
-import Parent from './Revise/index-1';
+// import Parent from './Revise/index-1';
 // import Two from './Revise/two'
-import './css/appStyle.css';
-import Styles from './css/appStyle.module.css';
+// import './css/appStyle.css';
+// import Styles from './css/appStyle.module.css';
 import Form from './Form Handling/Controlled Component/email';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <div>
       {/* <One/>
       <Two/>*/}
-      <Parent />
+      {/* <Parent /> */}
       {/* <Names/> */}
       {/* <Namestyle/> */}
       {/* <h1 className='resolve'> Error</h1>
