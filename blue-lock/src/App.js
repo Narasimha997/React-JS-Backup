@@ -9,6 +9,8 @@ import Gripper from './Revise/css2'
 import Pokemon from './Revise/css3'
 import Ignite from './Revise/css4'
 import Module from './Revise/css5'
+import Click from './Revise/event1'
+import User from './Revise/form'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Pokemon red={false}/>
       <Ignite heading={false}/>
       <Module/>
+      <Click/>
+      <User/>
 
     </div>
   )
