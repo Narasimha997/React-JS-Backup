@@ -1,6 +1,7 @@
 import React from 'react'
 // import Lifecycleparent from './Lifecycle Methods/Mounting Lifecycle Methods/Lifecycleparent'
 import './App.css'
+import Lifecyclewheel from './Lifecycle Methods/Updating lifecycle methods/practice'
 // import LifecycleA from './Lifecycle Methods/Updating lifecycle methods/LIfecyccleA'
 import Button from './Revise/button'
 import Inline from './Revise/css'
@@ -17,7 +18,7 @@ function App() {
     <div className='App'>
       {/* <Lifecycleparent/> */}
       {/* <LifecycleA/> */}
-      <Button/>
+      {/* <Button/>
       <Inline/>
       <Normal/>
       <Gripper red={true}/>
@@ -25,8 +26,8 @@ function App() {
       <Ignite heading={false}/>
       <Module/>
       <Click/>
-      <User/>
-
+      <User/> */}
+      <Lifecyclewheel/>
     </div>
   )
 }
